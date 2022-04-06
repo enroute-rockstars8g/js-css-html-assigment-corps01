@@ -1,0 +1,150 @@
+:root {
+  --box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.5);
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  margin: 0;
+  height: 100%;
+}
+body {
+  margin: 0;
+  min-height: 100%;
+  background-color: #ff9a00;
+}
+
+
+.container-about{
+    background: linear-gradient(to bottom, #1e528e 0%,#728a7c 80%,#ff9a00 100%);
+    padding-bottom: 10rem;
+}
+
+
+.header {
+  padding: 4rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-text {
+  margin-right: 1.5rem;
+}
+
+.header-text h1 {
+  font-size: 3rem;
+  margin: 0.5rem 0;
+}
+
+.header-text h2 {
+  margin-bottom: 3rem;
+}
+
+.button {
+    text-align: center;
+  padding: 1.2rem;
+  background-color: #ff9a00;
+  border-radius: 2.2rem;
+  box-shadow: var(--box-shadow);
+}
+
+.button a {
+  text-decoration: none;
+  color: black;
+}
+
+.header-image {
+  margin-left: 1.5rem;
+}
+
+.header-image img {
+  max-width: 15rem;
+  border-radius: 50%;
+  box-shadow: var(--box-shadow);
+}
+
+.magic-tacos {
+  background-color: #ff9a00;
+}
+
+.about-me-container{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-me-title{
+    border-radius: .6rem;
+    text-align: center;
+    width: 20rem;
+    margin-right: 5rem;
+}
+
+.about-me-text {
+    max-width: 40rem;
+    text-align: justify;
+}
+
+footer {
+    background-color: #8b5e3c;
+    padding: 4rem;
+}
+
+footer p{
+    font-size: x-small;
+    margin-top: 0;
+}
+
+
+.taco-image{
+    max-width: 10rem;
+    position: relative;
+    padding-left: 10rem;
+}
+
+.tacos-title{
+    margin: 0;
+    text-align: center;
+}
+
+.tacos-title{
+    margin: 0;
+    text-align: center;
+}
+
+.tacos-subtitle{
+    line-height: .5rem;
+    text-align: center;
+}
+
+.taco-form{
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.taco-form input {
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+
+.tacos-container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.number-output{
+  text-align: center;
+  padding: 5rem;
+  word-wrap: break-word;
+}
