@@ -1,4 +1,5 @@
 function calc() {
+  document.getElementById("mexicano").src = "./res/mexicano2.png";
   const input_value = parseInt(document.getElementById("inputTaco").value);
   if (document.getElementById("Radfib").checked) {
     fibo(input_value);
@@ -35,5 +36,17 @@ function calc() {
       total = total * i;
     }
     printResult(numberToShow);
+  }
+}
+
+
+function mexicano() {
+  if (document.getElementById("mexicano").src == "./res/mexicano1.png") 
+  {
+      document.getElementById("mexicano").src = "./res/mexicano2.png";
+  }
+  else 
+  {
+      document.getElementById("mexicano").src = "./res/mexicano1.png";
   }
 }
